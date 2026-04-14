@@ -1,0 +1,39 @@
+/* :host is de <user-card> tag zelf */
+@layer components {   
+  @scope (user-card) {
+    :scope {
+      display: block;
+      max-width: 300px;
+      margin: 1rem;
+    }
+
+    .user-card-wrapper {
+      background-color: #1d0ef9;
+      border: 2px solid #333;
+      border-radius: 12px;
+      padding: 1.5rem;
+      text-align: center;
+
+      /* Native CSS Nesting werkt hier perfect */
+      & img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #007bff;
+      }
+
+      & h3 {
+        margin: 1rem 0 0.5rem;
+        color: #007bff;
+        font-family: sans-serif;
+      }
+
+      & .bio {
+        font-size: 0.9rem;
+        color: #666;
+        line-height: 1.4;
+      }
+    }
+  } 
+}

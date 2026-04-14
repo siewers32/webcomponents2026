@@ -1,0 +1,17 @@
+:root {
+  /* Kleurenpalet (Tokens) */
+  --color-primary: #3b82f6;      /* Bright Blue */
+  --color-secondary: #8b5cf6;    /* Soft Purple */
+  --color-success: #10b981;      /* Emerald Green */
+  
+  /* Surface colors met de nieuwe light-dark syntax */
+  --bg-main: light-dark(#ffffff, #121212);
+  --bg-card: light-dark(#f9fafb, #1e1e1e);
+  --text-main: light-dark(#1f2937, #f3f4f6);
+  --border-color: light-dark(#e5e7eb, #374151);
+
+  /* Spacing & Radius */
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --radius-md: 8px;
+}

@@ -1,0 +1,43 @@
+@layer components {
+  @scope (site-nav) {
+    /* De container van de navigatie */
+    :scope {
+      background-color: green;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: var(--space-md);
+      border-bottom: 1px solid var(--border-color);
+
+      & .logo {
+        font-weight: bold;
+        color: var(--color-primary);
+        font-size: 1.25rem;
+      }
+    }
+
+    /* De lijst met links */
+    & ul {
+      list-style: none;
+      background-color: blueviolet;
+      display: none; /* Mobiel eerst: verborgen */
+      gap: var(--space-md);
+      margin: 0;
+
+      @media (min-width: 768px) {
+        display: flex;
+      }
+
+      & li a {
+        text-decoration: none;
+        background-color: burlywood;
+        color: var(--text-main);
+        font-weight: 500;
+
+        &:hover {
+          color: var(--color-secondary);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    line-height: 1.5;
+  }
+
+  /* Zorg dat afbeeldingen niet buiten hun container breken */
+  img {
+    max-width: 100%;
+    display: block;
+  }
+}

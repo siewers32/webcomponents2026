@@ -1,0 +1,8 @@
+/* 1. Global configs */
+@import "css/layers.css";
+@import "css/variables.css";
+@import "css/reset.css";
+
+/* 2. Components */
+@import "components/user-card/user-card.css";
+@import "components/site-nav/site-nav.css";
