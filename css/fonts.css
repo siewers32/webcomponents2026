@@ -1,0 +1,165 @@
+@font-face {
+  font-family: 'Pliant';
+  font-display: swap;
+  src: url('/fonts/Pliant/pliant.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-display: swap;
+  src: url('/fonts/Inter/Inter.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('/fonts/Fira_Sans/FiraSans-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('/fonts/Fira_Sans/FiraSans-Light.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('/fonts/Fira_Sans/FiraSans-Regular.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('/fonts/Fira_Sans/FiraSans-Medium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('/fonts/Fira_Sans/FiraSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('/fonts/Fira_Sans/FiraSans-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('/fonts/Fira_Sans/FiraSans-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('/fonts/Fira_Sans/FiraSans-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('/fonts/Fira_Sans/FiraSans-LightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('/fonts/Fira_Sans/FiraSans-RegularItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('/fonts/Fira_Sans/FiraSans-MediumItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('/fonts/Fira_Sans/FiraSans-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('/fonts/Fira_Sans/FiraSans-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('/fonts/Fira_Sans/FiraSans-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'IBM_Plex_Sans_Devanagari';
+  src: url('/fonts/IBM_Plex_Sans_Devanagari/IBM_Plex_Sans_Devanagari-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IBM_Plex_Sans_Devanagari';
+  src: url('/fonts/IBM_Plex_Sans_Devanagari/IBM_Plex_Sans_Devanagari-Light.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IBM_Plex_Sans_Devanagari';
+  src: url('/fonts/IBM_Plex_Sans_Devanagari/IBM_Plex_Sans_Devanagari-Regular.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IBM_Plex_Sans_Devanagari';
+  src: url('/fonts/IBM_Plex_Sans_Devanagari/IBM_Plex_Sans_Devanagari-Medium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IBM_Plex_Sans_Devanagari';
+  src: url('/fonts/IBM_Plex_Sans_Devanagari/IBM_Plex_Sans_Devanagari-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IBM_Plex_Sans_Devanagari';
+  src: url('/fonts/IBM_Plex_Sans_Devanagari/IBM_Plex_Sans_Devanagari-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IBM_Plex_Sans_Devanagari';
+  src: url('/fonts/IBM_Plex_Sans_Devanagari/IBM_Plex_Sans_Devanagari-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}

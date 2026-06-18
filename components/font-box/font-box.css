@@ -1,0 +1,25 @@
+/* :host is de <user-card> tag zelf */
+@layer components {   
+  @scope (font-box) {
+    :scope {
+      display: block;
+      margin: 1rem;
+    }
+
+    .font-box-wrapper {
+      background-color: #fbfbff;
+      border: 2px solid #333;
+      border-radius: 12px;
+      padding: 1.5rem;
+      text-align: left;
+
+      /* Native CSS Nesting werkt hier perfect */
+
+      & h3 {
+        margin: 1rem 0 0.5rem;
+        color: #00244b;
+        font-family: sans-serif;
+      }
+    }
+  } 
+}

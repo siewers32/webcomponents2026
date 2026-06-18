@@ -1,7 +1,7 @@
 :root {
   /* Kleurenpalet (Tokens) */
-  --color-primary: #3b82f6;      /* Bright Blue */
-  --color-secondary: #8b5cf6;    /* Soft Purple */
+  --color-primary: #0f2951;      /* Bright Blue */
+  --color-secondary: #6345ab;    /* Soft Purple */
   --color-success: #10b981;      /* Emerald Green */
   
   /* Surface colors met de nieuwe light-dark syntax */

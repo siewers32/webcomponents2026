@@ -1,0 +1,19 @@
+footer {
+  width:450px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* With a <size-query> */
+@container (width > 400px) {
+  h2 {
+    font-size: 1.5em;
+  }
+
+  p {
+    color:pink;
+    background-color: aqua;
+  }
+}

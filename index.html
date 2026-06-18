@@ -2,18 +2,25 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
-  <title>Native App 2026</title>
+  <title>FontBox</title>
   
   <link rel="stylesheet" href="main.css">
 
   <script type="module" src="components/site-nav/site-nav.js"></script>
   <script type="module" src="components/user-card/user-card.js"></script>
+  <script type="module" src="components/font-box/font-box.js"></script>
 </head>
 <body>
+  
 
-  <site-nav class="site-nav"></site-nav>
+  <site-nav site-name="FontBox" class="site-nav"></site-nav>
 
-  <main>
+  <main>  
+    <font-box font-family="Tirra"></font-box>
+    <font-box font-family="Ubuntu"></font-box>
+    <font-box font-family="Inter"></font-box>
+    <font-box font-family="Pliant"></font-box>
+  
     <user-card name="Alex Doe" avatar="https://i.pravatar.cc/300" status="Online">
       <p>Alex is een <strong>Native CSS</strong> specialist uit Nederland.</p>
     </user-card>
@@ -21,6 +28,11 @@
       <p>Piet is een <strong>Native CSS</strong> specialist uit Nederland.</p>
     </user-card>
   </main>
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2026 Native App. Alle rechten voorbehouden.</p>
+    </div>
+  </footer>
 
 </body>
 </html>

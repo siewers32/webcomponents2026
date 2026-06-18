@@ -7,7 +7,7 @@
     margin: 0;
     background-color: var(--bg-main);
     color: var(--text-main);
-    font-family: 'Segoe UI', system-ui, sans-serif;
+    font-family: 'Pliant', system-ui, sans-serif;
     line-height: 1.5;
   }
 
@@ -15,5 +15,14 @@
   img {
     max-width: 100%;
     display: block;
+  }
+
+  div.fira {
+    font-family: 'Fira Sans', system-ui, sans-serif;
+  }
+
+
+  div.IBM_Plex_Sans_Devanagari {
+    font-family: 'IBM Plex Sans Devanagari', system-ui, sans-serif;
   }
 }

@@ -1,4 +1,7 @@
 /* 1. Global configs */
+@import "css/fonts.css";
+@import "css/tirra.css";
+@import "css/ubuntu.css";
 @import "css/layers.css";
 @import "css/variables.css";
 @import "css/reset.css";
@@ -6,3 +9,5 @@
 /* 2. Components */
 @import "components/user-card/user-card.css";
 @import "components/site-nav/site-nav.css";
+@import "components/font-box/font-box.css";
+ 
