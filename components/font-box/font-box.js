@@ -2,7 +2,7 @@
 class FontBox extends HTMLElement {
   connectedCallback() {
     const name = this.getAttribute('font-family') || 'Sans-serif';
-    this.innerHTML = ` <div style="font-family: '${name}', sans-serif;" class="font-box-wrapper">
+    this.innerHTML = ` <div style="font-family: '${name}', Arial, sans-serif;" class="font-box-wrapper">
     <h3>${name}</h3>
     <span style="font-style: italic; font-weight: 100;">Dit is 100</span>
     <span style="font-style: italic; font-weight: 200;">Dit is 200</span>
